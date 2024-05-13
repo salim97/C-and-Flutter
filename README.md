@@ -42,7 +42,7 @@ if you are running the app on android emulator use the following URL "http://10.
 ip 10.0.2.2 point back to localhost ( 127.0.0.1 ) since apache2 is running on docker container
 
 
-![](https://raw.githubusercontent.com/salim97/C-and-Flutter/main/qemu-system-x86_64_F8c2tJa0vX.png)
+![Android emulator](https://raw.githubusercontent.com/salim97/C-and-Flutter/main/qemu-system-x86_64_F8c2tJa0vX.png)
 
 # Copyright © 2024
 
