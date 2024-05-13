@@ -1,0 +1,31 @@
+# test C++ and Flutter provided by Philip Lau
+
+## Q1
+
+The “tw_size_t” is uint32_t.
+
+```cpp
+template <typename T, size_t nLen>
+constexpr tw_size_t read(T(&aryval)[nLen]) {
+    if constexpr (std::is_standard_layout_v<T>) {
+        return read(reinterpret_cast<char*>(aryval), sizeof(T) * nLen);
+    }
+}
+```
+
+Please explain the above snippet. What is the name of this kind of code: T(&aryval)[nlen]? What is the purpose of the function “read”?
+
+## S1
+
+The purpose is to read or process a raw block of memory containing nLen elements of type T. This can be used for tasks such as serialization, memory copying, or handling binary data efficiently, assuming the inner read function is designed to handle a buffer of bytes and return the number of bytes that were successfully processed.
+
+
+## Q2
+
+if you are using windows and you have docker installed then you can run docker-compose.yml which will start Linux virtual machine
+
+```
+docker-compose up
+
+```
+
