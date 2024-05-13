@@ -41,4 +41,4 @@ you can compile it and run it on Android or IOS
 if you are running the app on android emulator use the following URL "http://10.0.2.2:8080"
 ip 10.0.2.2 point back to localhost ( 127.0.0.1 ) since apache2 is running on docker container
 
-![QEMU System Image](https://github.com/salim97/C-and-Flutter/blob/main/qemu-system-x86_64_F8c2tJa0vX.png)
+![QEMU System Image](https://github.com/salim97/C-and-Flutter/blob/main/qemu-system-x86_64_F8c2tJa0vX.png?raw=true)
