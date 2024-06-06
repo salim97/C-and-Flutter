@@ -1,4 +1,4 @@
-# test C++ and Flutter provided by Philip Lau
+# test C++ and Flutter provided 
 
 ## Q1
 
